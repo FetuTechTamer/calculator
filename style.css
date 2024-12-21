@@ -1,0 +1,56 @@
+body {
+    background-color: hsl(222, 26%, 31%);
+    color: hsl(0, 0%, 100%);
+    font-family: Arial, sans-serif;
+}
+.calculator {
+    background-color: hsl(223, 31%, 20%);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px hsl(224, 28%, 35%);
+    max-width: 400px;
+    margin: auto;
+    margin-top: 100px;
+}
+.display {
+    background-color: hsl(224, 36%, 15%);
+    color: hsl(0, 0%, 100%);
+    font-size: 2em;
+    height: 60px;
+    text-align: right;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.btn {
+    width: 100%;
+    margin: 5px 0;
+    border-radius: 5px;
+    font-size: 1.5em;
+}
+.btn-key {
+    background-color: hsl(30, 25%, 89%);
+    color: hsl(0, 0%, 0%);
+    box-shadow: 0px 3px 5px hsl(28, 16%, 65%);
+}
+.btn-key:hover {
+    background-color: hsl(30, 25%, 79%);
+}
+.btn-del-reset {
+    background-color: hsl(225, 21%, 49%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: 0px 3px 5px hsl(224, 28%, 35%);
+}
+.btn-del-reset:hover {
+    background-color: hsl(225, 21%, 40%);
+}
+.btn-equal {
+    background-color: hsl(6, 63%, 50%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: 0px 3px 5px hsl(6, 70%, 34%);
+}
+.btn-equal:hover {
+    background-color: hsl(6, 63%, 40%);
+}
