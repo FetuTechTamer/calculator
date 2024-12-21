@@ -1,1 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body>
 
+<div class="calculator">
+    <input type="text" id="display" class="display" disabled />
+    
+    <div class="row">
+        <div class="col-3">
+            <button class="btn btn-key" onclick="addToDisplay('7')">7</button>
+        </div>
+        <div class="col-3">
+            <button class="btn btn-key" onclick="addToDisplay('8')">8</button>
+        </div>
+        <div class="col-3">
+            <button class="btn btn-key" onclick="addToDisplay('9')">9</button>
+        </div>
+        <div class="col-3">
+            <button class="btn btn-del-reset" onclick="deleteLast()">DEL</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-3">
+            <button class="btn btn-key" onclick="addToDisplay('4')">4</button>
+        </div>
+        <div class="col-3">
+            <button class="btn btn-key" onclick="addToDisplay('5')">5</button>
+        </div>
+        <div class="col-3">
+            <button class="btn btn-key" onclick="addToDisplay('6')">6</button>
+        </div>
+        <div class="col-3">
+            <button class="btn btn-key" onclick="addToDisplay('+')">+</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-3">
+            <button class="btn btn-key" onclick="addToDisplay('1')">1</button>
+        </div>
+        <div class="col-3">
+            <button class="btn btn-key" onclick="addToDisplay('2')">2</button>
+        </div>
+        <div class="col-3">
+            <button class="btn btn-key" onclick="addToDisplay('3')">3</button>
+        </div>
+        <div class="col-3">
+            <button class="btn btn-key" onclick="addToDisplay('-')">-</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-3">
+            <button class="btn btn-key" onclick="addToDisplay('.')">.</button>
+        </div>
+        <div class="col-3">
+            <button class="btn btn-key" onclick="addToDisplay('0')">0</button>
+        </div>
+        <div class="col-3">
+            <button class="btn btn-key" onclick="addToDisplay('/')">/</button>
+        </div>
+        <div class="col-3">
+            <button class="btn btn-key" onclick="addToDisplay('x')">x</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-6">
+            <button class="btn btn-del-reset" onclick="clearDisplay()">RESET</button>
+        </div>
+        <div class="col-6">
+            <button class="btn btn-equal" onclick="calculateResult()">=</button>
+        </div>
+    </div>
+</div>
+
+
+
+</body>
+</html>
